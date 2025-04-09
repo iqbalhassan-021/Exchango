@@ -929,6 +929,14 @@ label{
       font-size: 10px;
       text-align: center;
   }
+  .notifications-holder a{
+    font-size: 10px;
+ 
+  }
+  .notifications-holder i{
+    font-size: 10px;
+ 
+  }
   
 }
 .social-icons{

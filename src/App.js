@@ -10,7 +10,7 @@ import API from './Pages/API';
 import Support from './Pages/Support';
 import FAQs from './Pages/FAQs';
 import Terms from './Pages/Terms';
-
+import BlogPost from './Pages/BlogPost';
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +24,7 @@ function App() {
         <Route path="/api" element={<API />} />
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
     </BrowserRouter>

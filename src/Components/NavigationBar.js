@@ -39,7 +39,7 @@ function NavigationBar() {
     { name: 'Contact', path: '/contact' },
     { name: 'Convert', path: '/convert' },
     { name: 'Blogs', path: '/news' },
-    { name: 'Git', path: '/git' },
+    { name: 'Git', path: 'https://github.com/iqbalhassan-021/Exchango' },
     { name: 'API', path: '/api' },
     { name: 'Support', path: '/support' }
   ];

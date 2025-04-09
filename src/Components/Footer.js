@@ -31,17 +31,18 @@ function Footer() {
           <div className="footer-item">
             <h1>Developer</h1>
             <Link to="/api" className="no-decoration">API</Link>
-            <a href="/git" className="no-decoration">Git</a> {/* Note: Add /git route if needed */}
+            <a href="https://github.com/iqbalhassan-021/Exchango" className="no-decoration">Git</a> {/* Note: Add /git route if needed */}
             <Link to="/api" className="no-decoration">Documentation</Link> {/* Note: Add /docs route if needed */}
+            <a href='https://hassansbio.netlify.app/' className="no-decoration">The Developer</a>
           </div>
         </div>
         <div className="footer-bottom">
           <p>© 2025 Exchango. All rights reserved.</p>
           <div className="social-icons">
             {/* Social links kept as <a> since they likely go to external sites */}
-            <a href="https://facebook.com" className="no-decoration"><i className="fa-brands fa-facebook"></i></a>
-            <a href="https://instagram.com" className="no-decoration"><i className="fa-brands fa-instagram"></i></a>
-            <a href="https://linkedin.com" className="no-decoration"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100015574355869" className="no-decoration"><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/+923121798713" className="no-decoration"><i className="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/iqbal-hassan-b156b5314/" className="no-decoration"><i className="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>

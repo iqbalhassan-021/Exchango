@@ -8,19 +8,21 @@ import CountHolder from '../Components/CountHolder';
 import ConversionCaller from '../Components/ConversionCaller';
 import NewsHolder from '../Components/NewsHolder';
 import Footer from '../Components/Footer';
+import GetVisits from '../Components/GetVisits';
 
 function Home() {
   return (
     <div className="page-wrapper">
+    <GetVisits />
     <Notifications />
     <NavigationBar />
     <HeroSection />
     <WorldCurrencies />
     <CountHolder />
     <ConversionCaller />
-    <NewsHolder />
+    <NewsHolder isHome={true} />
     <Footer />
-        
+    
     </div>
   );
 }
