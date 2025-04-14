@@ -6,6 +6,7 @@ function ContactForm() {
     <div class="page-cover">
         <div class="contact">
             <form class="contact-form">
+            <input type="hidden" name="access_key" value="96dfec8b-2442-41ef-b291-a01b5f495183"/>
                 <div class="form-tab">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required class="form-input" placeholder="Enter your name"></input>
